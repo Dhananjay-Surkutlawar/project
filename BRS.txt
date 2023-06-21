@@ -1,0 +1,57 @@
+Business Requiremnt Specification
+Author:Nikhil Gode ( Business Analyst)
+Title:ECommerce Business Requirements of BikerPlanet.
+Stakeholders:
+	  visitor,
+	  existing customer,
+	  Sales representative,
+	  Sellers(Merchant)
+	  Vendors ( Store managers, Dealers)
+	  BOD
+
+Document generated with the help of  series of meetings  held 
+between stake holders, Domain Experts, Business Analysts
+First Draft : 21/06/2023
+Revised Draft: 21/06/2023
+
+
+Explain about 
+In this current scenario where competion is very tough and lots of compinies launching new bikes with various features.Beacause of this consumer is getting very confused while selecting a bike of his choice.
+  So here is the solution for such problem. "BikerPlanet" is platform where all customer can browse through different bike selling companies and compare their features. They can also loacate nearest bike dealer to book test drive on preferable date and time.Consumer can compare the bikes on the basis of milage,price and looks.Many customer buy the bike on the basis of just looks and they even don't know about features. So this website will help them to compare bikes on the basis of simple features.One can compare the bikes overall features also.
+
+
+1) Bike Comparison  
+
+
+	-> User Login : New user registration or login for previous user
+
+	-> Bike selection based on company : You can browse through various available bikes moodeles which are available in your prefferd compony.
+
+	-> Bike selection based on Bike type : You can browse  bikes according to biketype you want to choose. Example:- Cruiser,Sport,Touring etc.
+
+	-> Show Bike details : You can see specifications of that bike like Price,milege,top Speed etc.
+
+      -> Show Showroom : You can see nearest showroom or dealer of that bike available in your nearby location.You can also book timeslot for test drive on your preferable date
+
+	-> Compare Bike : You can select 2 bikes and compare their features to simplfy your selection of your bike
+
+	-> Rating : User can add rating for bikes
+
+	
+
+
+
+2) Banquate Hall Booking
+
+
+
+3) Fitness 
+
+
+
+
+
+
+
+
+
