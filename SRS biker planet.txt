@@ -1,0 +1,138 @@
+Document:System Requirement Specification Document
+
+Title:System Reqruiement Spefication for BikerPlanet
+
+Team:
+	Direct Customer, Indirect Customer,Architect, Business Analyst
+	Quality Assurance Team,
+	System Analyst
+
+Objective (Purpose):
+              			The purpose of this system is to provide ease to the customer while choosing a required bike and multiple features through which a customer can easily meet his requirements and provide efficient and effective searching. In our website customer can search his desired bike by the Company name, according to his budget,by the engine displacement etc. If the customer is confused to choose the bike we have a feature where he/she can compare  between full specifications of two bikes 
+
+    
+
+
+Definitions:
+	
+	Portal: Peronalized Online Web Application
+	MIS: Management Information System
+	CRM: Customer Relation Managment
+	BI:  Business Intelligence
+	Dashboard: Personalized information presented using  BI techniques such grid, score card, graph
+
+Requirements:
+
+
+
+
+Functional Requirements:
+	Any annonymous User will be able to view different  bikes avaialble in different companies. Any User will be able select bikes to view from categories avaialble.
+
+We have multiple brands of bikes available in our website by which user can also search a bike in a desired brand section in various categories .we have mentioned multiple  bikes options with lots of images of the samevon our site.
+
+User will be able to compare between specifications of his selected two bikes and choose bike according to his needs.we provide bikes every specification such as its mileage,displacement,color options,price(ex showroom & onroad),Weight etc.
+
+
+Registered user will be able to book a testride of his chosen bike his details will be passed to nearby Authorized dealer and they will get in touch  with the user for the same.
+
+
+
+features:
+
+1)User Interface:
+
+The website homepage displays a search bar, filter options for price range and category, and a list of available bikes.
+Each bike listing shows essential details like the brand, model, price, and an option to view more details or compare the bike.
+
+
+2)Comparing Bikes:
+
+When a user selects the "Compare" option on two different bike listings, the website navigates them to the comparison page.
+On the comparison page, the two bikes are displayed side by side, showcasing their key features and specifications in a tabular format.
+The table includes columns for attributes like engine capacity, top speed, fuel efficiency, weight, and any other relevant information.
+The compared features are visually highlighted, making it easy for the user to distinguish between the two bikes.
+
+
+3)Interactive Comparison:
+
+The comparison page allows users to dynamically add or remove additional bikes for comparison.
+A search bar or dropdown menu enables users to search and select more bikes to add to the existing comparison table.
+As bikes are added or removed, the table is dynamically updated to reflect the new comparison set.
+The user can easily switch between different bikes and explore their features without leaving the comparison page.
+
+
+4)Enhanced User Experience:
+
+To assist users in making an informed decision, provide tooltips or additional information icons next to each attribute in the comparison table.
+Users can hover over these icons to view detailed explanations of each feature, helping them understand the significance and impact on their bike selection.
+A visually appealing design, intuitive navigation, and responsive layout ensure that users can comfortably explore and compare bikes on both desktop and mobile devices.
+
+
+
+
+	
+
+
+
+Availability
+		 uptime:   24* 7  available
+		 99.999%
+	
+Maintainability:
+A Commercial database software will be used to maintain System data Persistence.
+A readymade Web Server will be installed to host online shopping portal (Web Site) to management server capabilities.
+IT operations team will easily monitor and configure System using Adminstrative tools provided by Servers.
+Separate enviornment will be maintained for system for isolation in  production, testing, and development.
+
+
+
+
+
+
+
+
+
+Portablility:
+			PDA: Portable Device Application
+		  System will provide portable User Interface ( HTML, CSS, JS) through  users will be able to access online shopping portal.
+		  System can be deployed to single server, multi server, to any OS, Cloud (Azure or AWS or GCP)
+
+Accessibility:
+		only registered customer will be able to book a test ride .
+		
+
+Efficiency:
+		instead of visiting different websites and showrooms user can select and get information about bike on single click.
+
+	Modularity:
+		
+	Scalability:
+		System will be able  to  provide  consistent user exeprience to stake holder as well as vistors irrespective of load.
+
+	Safety:
+		
+		online shopping portal will be secure from malicious attack, fishing.
+		online shoppping portal functionalilites are protected from outside with prper firewall configuration.
+		online shopping portal will be always kept updated with latest anit virus software.
+		Bussiness data will be backed up periodically to ensure safty of data using increamental back up strategy.
+		Role based security will be applied for Application data and operations accessibility.
+				
+
+
+	Use Case Diagram:  ( UML)
+		Object Oriented Analyis and Design Notation: UML--------Unified Modeling language
+
+		Design Phase:
+
+			Use case diagram
+			Activity diagram
+			State Transition diagram
+			Class diagram
+			deployment diagram
+			object diagram
+	
+
+
+
+
