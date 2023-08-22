@@ -1,6 +1,6 @@
 package com.example.demo.entities;
+import com.example.demo.entities.Question;
 
-import org.aspectj.weaver.patterns.TypePatternQuestions.Question;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -9,6 +9,7 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToOne;
+import jakarta.persistence.OneToOne;
 import jakarta.persistence.Table;
 
 @Entity
@@ -16,7 +17,7 @@ import jakarta.persistence.Table;
 public class Login {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    
     private int id;
 
     @Column(name = "email")
@@ -25,25 +26,46 @@ public class Login {
     @Column(name = "password")
     private String password;
 
-    @Column(name = "role_id")
-    private int roleId;
-
     @Column(name = "status_id")
-    private int statusId;
+    private boolean status_id;
 
-    @Column(name = "q_id")
-    private int questionId;
+  
 
     @Column(name = "answer")
     private String answer;
 
     @ManyToOne
-    @JoinColumn(name = "q_id", referencedColumnName = "id", insertable = false, updatable = false)
+    @JoinColumn(name="q_id")
     private Question question;
 
     @ManyToOne
-    @JoinColumn(name = "role_id", referencedColumnName = "id", insertable = false, updatable = false)
-    private CustomerType role;
+    @JoinColumn(name = "role_id")
+    private CustomerType role_id;
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    public Login() {
+		super();
+	}
+
+	public Login(int id, String email, String password, boolean status_id, String answer, Question question,
+			CustomerType role_id) {
+		super();
+		this.id = id;
+		this.email = email;
+		this.password = password;
+		this.status_id = status_id;
+		this.answer = answer;
+		this.question = question;
+		this.role_id = role_id;
+	}
 
 	public int getId() {
 		return id;
@@ -69,28 +91,17 @@ public class Login {
 		this.password = password;
 	}
 
-	public int getRoleId() {
-		return roleId;
+
+
+
+
+
+	public boolean isStatus_id() {
+		return status_id;
 	}
 
-	public void setRoleId(int roleId) {
-		this.roleId = roleId;
-	}
-
-	public int getStatusId() {
-		return statusId;
-	}
-
-	public void setStatusId(int statusId) {
-		this.statusId = statusId;
-	}
-
-	public int getQuestionId() {
-		return questionId;
-	}
-
-	public void setQuestionId(int questionId) {
-		this.questionId = questionId;
+	public void setStatus_id(boolean status_id) {
+		this.status_id = status_id;
 	}
 
 	public String getAnswer() {
@@ -110,11 +121,11 @@ public class Login {
 	}
 
 	public CustomerType getRole() {
-		return role;
+		return role_id;
 	}
 
 	public void setRole(CustomerType role) {
-		this.role = role;
+		this.role_id = role;
 	}
 
     // Constructors, getters, and setters

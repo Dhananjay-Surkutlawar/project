@@ -1,9 +1,11 @@
 package com.example.demo.repositories;
 
 import org.springframework.data.repository.CrudRepository;
+import org.springframework.stereotype.Repository;
 
-import com.example.demo.entities.Questions;
+import com.example.demo.entities.Question;
 
-public interface QuestionRepo extends CrudRepository<Questions, Integer> {
+@Repository
+public interface QuestionRepo extends CrudRepository<Question, Integer> {
 
 }

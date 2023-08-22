@@ -6,7 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.example.demo.entities.City;
-import com.example.demo.entities.Questions;
+import com.example.demo.entities.Question;
 import com.example.demo.repositories.CityRepository;
 import com.example.demo.repositories.QuestionRepo;
 
@@ -16,8 +16,8 @@ public class QuestionsService
 	@Autowired
 	QuestionRepo qrepo;
 	
-	public List<Questions> getAll()
+	public List<Question> getAll()
 	{
-		return (List<Questions>) qrepo.findAll();
+		return (List<Question>) qrepo.findAll();
 	}
 }

@@ -1,5 +1,6 @@
 package com.example.demo.entities;
 
+import java.util.List;
 import java.util.Set;
 
 import jakarta.persistence.Column;
@@ -9,20 +10,19 @@ import jakarta.persistence.OneToMany;
 import jakarta.persistence.Table;
 
 @Entity
-@Table(name = "customer_types")
-public class CustomerType {
+@Table(name = "questions")
+public class Question {
     @Id
     private int id;
-    @Column
-    private String name;
     
-   
-
-	public CustomerType() {
+    @Column
+    private String question;
+    
+    
+	public Question() {
 		super();
 	}
 
-	// Getters and setters
 	public int getId() {
 		return id;
 	}
@@ -31,14 +31,17 @@ public class CustomerType {
 		this.id = id;
 	}
 
-	public String getName() {
-		return name;
+	public String getQuestion() {
+		return question;
 	}
 
-	public void setName(String name) {
-		this.name = name;
+	public void setQuestion(String question) {
+		this.question = question;
 	}
+
+	
     
    
+    
     
 }

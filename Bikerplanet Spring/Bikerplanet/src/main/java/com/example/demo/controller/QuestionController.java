@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.example.demo.entities.CustomerType;
-import com.example.demo.entities.Questions;
+import com.example.demo.entities.Question;
 import com.example.demo.services.CustomerTypeService;
 import com.example.demo.services.QuestionsService;
 
@@ -19,10 +19,5 @@ public class QuestionController
      QuestionsService qservice;
      
      
-     @PostMapping("/Allquestions")
- 	public List<Questions> getAll()
- 	{
- 		return Questions.getAll();
- 	}
-
+ 
 }
