@@ -97,10 +97,7 @@ export default function CustomerHome()
       </header>
 
       
-{/* <div>
-<input type=" search" style="margin-left: 400px; "placeholder="Search your bike eg.royal enfield classic350" name="search"  size="100%"/>
-     <button  type="submit" name="search" onclick="search" style="background-color: red; ">search</button>
-</div>  */}
+
 
  <form  className="navbar navbar-light bg-dark">
   <div className='text-center col-md-4 col-md-offset-4'> 
