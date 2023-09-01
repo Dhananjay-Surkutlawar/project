@@ -86,13 +86,7 @@ export default function CustomerHome()
     <button className="btn btn-outline-success" type="submit">Search</button>
         </div>
         <div className='text-center col-md-4 col-md-offset-4'> 
-  {/* <table>  
-    <tr>
-        <td><p>Search your bike</p></td>
-      <td><input className=" form-control mr-sm-2  col-md-4 text-center "  type="search" placeholder="Search" aria-label="Search"/> </td>
-    <button className="btn btn-outline-success" type="submit">Search</button>
-    </tr>
-    </table> */}
+  
     </div>
       </header>
 
